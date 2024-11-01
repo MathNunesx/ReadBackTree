@@ -24,7 +24,40 @@ public class No {
         return cor;
     }
 
+    public void setCor(char cor){
+        this.cor = cor;
+    }
+
+    public No getfilhoDireito(){
+        return filhoDireito;
+    } 
+
+    public void setfilhoDireito(No filhoDireito){
+        this.filhoDireito = filhoDireito;
+    }
+
+    public No getfilhoEsquerdo(){
+        return filhoEsquerdo;
+    }
+
+    public void setfilhoEsquerdo(No filhoEsquerdo){
+        this.filhoEsquerdo = filhoEsquerdo;
+    }
     
-    
+    public int getValor(){
+        return valor;
+    }
+
+    public void setValor(int valor){
+        this.valor = valor;
+    }
+
+    public char getDuploN(){
+        return duploN;
+    }
+
+    public void setDuploN(char duploN){
+        this.duploN = duploN;
+    }
 
 }
