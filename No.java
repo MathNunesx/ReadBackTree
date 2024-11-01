@@ -20,7 +20,7 @@ public class No {
         this.pai = pai;
     }
 
-    public char getColor(){
+    public char getCor(){
         return cor;
     }
 
